@@ -1,3 +1,10 @@
+/* 
+File Name: app.js
+Name: Shota Ito
+Student #: 301103095
+App Name: Book List
+*/
+
 /* custom JS goes here */
 
 function Start()
