@@ -39,11 +39,11 @@ App Name: Book List
                 <td class="text-center col-md-1"><%= books[count].genre %></td>
                 <td class="text-center col-md-1">
                   <a href="/books/edit/<%= books[count]._id %>" class="btn btn-primary btn-sm">
-                   Edit</a>
+                   <i class="fa fa-pencil"></i> Edit</a>
                 </td>
                 <td class="text-center col-1">
                   <a href="/books/delete/<%= books[count]._id %>" class="btn btn-danger btn-sm">
-                     Delete</a>
+                   <i class="fa fa-trash"></i> Delete</a>
                 </td>
                </tr>
           <% } %>
