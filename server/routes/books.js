@@ -25,7 +25,7 @@ router.get('/', (req, res, next) => {
         {
             //console.log(books);
 
-            res.render('books/list', {title: 'Books', books: books});      
+            res.render('books/index', {title: 'Books', books: books});      
         }
     });
 
